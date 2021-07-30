@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1612104080720' stop='1612104086965'>
+    <name>Extract Trend List</name>
+    <title>Extract Trend List</title>
+    <test-cases>
+        <test-case start='1612104080720' status='broken' stop='1612104086964'>
+            <name>should submit search query</name>
+            <title>should submit search query</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.104'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>xploreButton is not defined</message>
+                <stack-trace>ReferenceError: xploreButton is not defined
+                    at Trends.navigateToTrends (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\Trending.page.js:19:8)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractTrendList.js:5:16)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

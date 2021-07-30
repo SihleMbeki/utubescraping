@@ -1,0 +1,56 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614338813782' stop='1614338854850'>
+    <name>Extract video comments</name>
+    <title>Extract video comments</title>
+    <test-cases>
+        <test-case start='1614338813783' status='broken' stop='1614338824709'>
+            <name>navigate to the video URL</name>
+            <title>navigate to the video URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>windowHandle is not defined</message>
+                <stack-trace>ReferenceError: windowHandle is not defined
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:10:42)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614338824710' status='failed' stop='1614338854850'>
+            <name>should extract comments list</name>
+            <title>should extract comments list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $$(`ytd-comment-thread-renderer.ytd-item-section-renderer`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $$(`ytd-comment-thread-renderer.ytd-item-section-renderer`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Homepage.ExtractContent (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:49:30)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:20:19)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 26 19:17:37 CAT 2021","Tue Jan 26 19:18:34 CAT 2021","57726","","Extract Youtube content","","Extract Youtube content","should extract result list","should extract result list",""
+"passed","Tue Jan 26 19:17:25 CAT 2021","Tue Jan 26 19:17:37 CAT 2021","12093","","Extract Youtube content","","Extract Youtube content","should submit search query","should submit search query",""
+"passed","Thu Jan 21 21:56:23 CAT 2021","Thu Jan 21 21:56:23 CAT 2021","0","","Extract Youtube content","","Extract Youtube content","should extract content","should extract content",""

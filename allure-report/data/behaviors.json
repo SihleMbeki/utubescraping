@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should extract content",
+    "uid" : "79d6819a3043bd08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611258983446,
+      "stop" : 1611258983446,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.141" ]
+  }, {
+    "name" : "should submit search query",
+    "uid" : "5d7b1219e92f89",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611681445102,
+      "stop" : 1611681457195,
+      "duration" : 12093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.141" ]
+  }, {
+    "name" : "should extract result list",
+    "uid" : "1c0846579dfe497a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1611681457196,
+      "stop" : 1611681514922,
+      "duration" : 57726
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.141" ]
+  } ]
+}

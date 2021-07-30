@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614295638159' stop='1614295646726'>
+    <name>Extract video comments</name>
+    <title>Extract video comments</title>
+    <test-cases>
+        <test-case start='1614295638160' status='passed' stop='1614295646652'>
+            <name>navigate to the video URL</name>
+            <title>navigate to the video URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1614295646653' status='broken' stop='1614295646725'>
+            <name>should extract comments list</name>
+            <title>should extract comments list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.182'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'waitForExist' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'waitForExist' of undefined
+                    at Homepage.ExtractContent (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:50:19)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:16:19)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

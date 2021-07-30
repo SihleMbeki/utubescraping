@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614380171286' stop='1614380241245'>
+    <name>Extract video comments</name>
+    <title>Extract video comments</title>
+    <test-cases>
+        <test-case start='1614380171286' status='broken' stop='1614380211158'>
+            <name>navigate to the video URL</name>
+            <title>navigate to the video URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>waitUntil condition failed with the following reason: returnvideoPage is not defined</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: returnvideoPage is not defined
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\commands\browser\waitUntil.js:26:15
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at runNextTicks (internal/process/task_queues.js:66:3)
+                    at processTimers (internal/timers.js:489:9)
+                    at async Browser.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Browser.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Browser.wrapCommandFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:15:17)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1614380211159' status='failed' stop='1614380241244'>
+            <name>should extract comments list</name>
+            <title>should extract comments list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect $$(`ytd-comment-thread-renderer.ytd-item-section-renderer`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"</message>
+                <stack-trace>Error: Expect $$(`ytd-comment-thread-renderer.ytd-item-section-renderer`) to be existing
+                
+                Expected: "existing"
+                Received: "not existing"
+                    at Homepage.ExtractContent (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:49:30)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:34:19)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

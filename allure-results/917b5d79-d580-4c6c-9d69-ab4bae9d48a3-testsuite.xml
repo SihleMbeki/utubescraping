@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624310126890' stop='1624310134081'>
+    <name>Extract Trend List</name>
+    <title>Extract Trend List</title>
+    <test-cases>
+        <test-case start='1624310126891' status='broken' stop='1624310134054'>
+            <name>Navigate to trends</name>
+            <title>Navigate to trends</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.106'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=91.0.4472.106)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=91.0.4472.106)
+                    at Object.getErrorFromResponseBody (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at Trends.navigateToTrends (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\Trending.page.js:23:28)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractTrendList.js:5:16)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624310134055' status='passed' stop='1624310134080'>
+            <name>Extract data</name>
+            <title>Extract data</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-91.0.4472.106'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

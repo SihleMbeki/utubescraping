@@ -1,0 +1,481 @@
+{
+  "uid" : "1c0846579dfe497a",
+  "name" : "should extract result list",
+  "fullName" : "Extract Youtube content.should extract result list",
+  "historyId" : "68b8503b7c5c308a668f537188cc0bf4",
+  "time" : {
+    "start" : 1611681457196,
+    "stop" : 1611681514922,
+    "duration" : 57726
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract result list"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28bc1bac6c677cfb",
+      "status" : "broken",
+      "statusDetails" : "Wrong parameters applied for getUrl\n                Usage: getUrl()\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-current-url\n                ",
+      "time" : {
+        "start" : 1611681407138,
+        "stop" : 1611681412366,
+        "duration" : 5228
+      }
+    }, {
+      "uid" : "3128de42c2b90a95",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611681222681,
+        "stop" : 1611681240372,
+        "duration" : 17691
+      }
+    }, {
+      "uid" : "1f0beafb5429525a",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611681156310,
+        "stop" : 1611681168939,
+        "duration" : 12629
+      }
+    }, {
+      "uid" : "d1da98b47a577bf9",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611681108694,
+        "stop" : 1611681116361,
+        "duration" : 7667
+      }
+    }, {
+      "uid" : "f60ca63500eeceb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611681036634,
+        "stop" : 1611681042535,
+        "duration" : 5901
+      }
+    }, {
+      "uid" : "a09f7f279c6f28db",
+      "status" : "broken",
+      "statusDetails" : "href is not defined",
+      "time" : {
+        "start" : 1611680981004,
+        "stop" : 1611680986263,
+        "duration" : 5259
+      }
+    }, {
+      "uid" : "ca1070323233f085",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611680762630,
+        "stop" : 1611680768376,
+        "duration" : 5746
+      }
+    }, {
+      "uid" : "3351ce79e96fab77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611680710422,
+        "stop" : 1611680715660,
+        "duration" : 5238
+      }
+    }, {
+      "uid" : "a017ce1aeb642118",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1611680533894,
+        "stop" : 1611680564044,
+        "duration" : 30150
+      }
+    }, {
+      "uid" : "1fcf44ca47d3590e",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1611680472535,
+        "stop" : 1611680500637,
+        "duration" : 28102
+      }
+    }, {
+      "uid" : "59ba8da4fd543399",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1611680309113,
+        "stop" : 1611680330038,
+        "duration" : 20925
+      }
+    }, {
+      "uid" : "be52ff7425f560b",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1611350501317,
+        "stop" : 1611350522335,
+        "duration" : 21018
+      }
+    }, {
+      "uid" : "12f344929a564220",
+      "status" : "broken",
+      "statusDetails" : "invalid session id",
+      "time" : {
+        "start" : 1611350390809,
+        "stop" : 1611350412405,
+        "duration" : 21596
+      }
+    }, {
+      "uid" : "af10aeae09013120",
+      "status" : "broken",
+      "statusDetails" : "Assignment to constant variable.",
+      "time" : {
+        "start" : 1611350090921,
+        "stop" : 1611350101037,
+        "duration" : 10116
+      }
+    }, {
+      "uid" : "6a3bd89f40ec0ada",
+      "status" : "broken",
+      "statusDetails" : "title is not defined",
+      "time" : {
+        "start" : 1611349988048,
+        "stop" : 1611349993650,
+        "duration" : 5602
+      }
+    }, {
+      "uid" : "32b9b111dfb77d00",
+      "status" : "broken",
+      "statusDetails" : "this.textWrapper.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1611349847919,
+        "stop" : 1611349853152,
+        "duration" : 5233
+      }
+    }, {
+      "uid" : "6cc1fcbd578a6c33",
+      "status" : "broken",
+      "statusDetails" : "this.textWrapper.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1611349740660,
+        "stop" : 1611349745862,
+        "duration" : 5202
+      }
+    }, {
+      "uid" : "82a1a338abe7e316",
+      "status" : "broken",
+      "statusDetails" : "createCsvWriter is not defined",
+      "time" : {
+        "start" : 1611349537156,
+        "stop" : 1611349537205,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "d30a3fdae1e89eae",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 60000ms exceeded. The execution in the test \"Extract Youtube content should extract result list\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\ExtractUtubeData.js)",
+      "time" : {
+        "start" : 1611349250710,
+        "stop" : 1611349310744,
+        "duration" : 60034
+      }
+    }, {
+      "uid" : "54fbd413962270e0",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611348934447,
+        "stop" : 1611348952203,
+        "duration" : 17756
+      }
+    }, {
+      "uid" : "b7d23d53524685d3",
+      "status" : "broken",
+      "statusDetails" : "browser.closeApp is not a function",
+      "time" : {
+        "start" : 1611348852636,
+        "stop" : 1611348858209,
+        "duration" : 5573
+      }
+    }, {
+      "uid" : "5bc79dce2c74983f",
+      "status" : "broken",
+      "statusDetails" : "browser.close is not a function",
+      "time" : {
+        "start" : 1611348492012,
+        "stop" : 1611348497639,
+        "duration" : 5627
+      }
+    }, {
+      "uid" : "3e8259fdcd3fed05",
+      "status" : "broken",
+      "statusDetails" : "Can't call executeScript on element with selector \"(//div[@id='filter-menu']//ancestor::div[@id='header-container']/following-sibling::div)[1]\" because element wasn't found",
+      "time" : {
+        "start" : 1611348284559,
+        "stop" : 1611348302449,
+        "duration" : 17890
+      }
+    }, {
+      "uid" : "708769998b3eb553",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611348216992,
+        "stop" : 1611348224746,
+        "duration" : 7754
+      }
+    }, {
+      "uid" : "29c6223d074cf671",
+      "status" : "broken",
+      "statusDetails" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611313948496,
+        "stop" : 1611313970827,
+        "duration" : 22331
+      }
+    }, {
+      "uid" : "d3f470dec65809ac",
+      "status" : "broken",
+      "statusDetails" : "browser.closeApp is not a function",
+      "time" : {
+        "start" : 1611266713076,
+        "stop" : 1611266722904,
+        "duration" : 9828
+      }
+    }, {
+      "uid" : "d1b11e692180c2f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611266573436,
+        "stop" : 1611266581646,
+        "duration" : 8210
+      }
+    }, {
+      "uid" : "c0d2a4c5308559df",
+      "status" : "broken",
+      "statusDetails" : "href.scrollIntoView is not a function",
+      "time" : {
+        "start" : 1611266502542,
+        "stop" : 1611266507735,
+        "duration" : 5193
+      }
+    }, {
+      "uid" : "7cbcf8199a522870",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611266211075,
+        "stop" : 1611266219596,
+        "duration" : 8521
+      }
+    }, {
+      "uid" : "5ba430a4c3efc962",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property '$$' of undefined",
+      "time" : {
+        "start" : 1611266114090,
+        "stop" : 1611266119290,
+        "duration" : 5200
+      }
+    }, {
+      "uid" : "13bef6ab05bc89e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611265919558,
+        "stop" : 1611265928984,
+        "duration" : 9426
+      }
+    }, {
+      "uid" : "a24f563efeb806f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611265806847,
+        "stop" : 1611265816251,
+        "duration" : 9404
+      }
+    }, {
+      "uid" : "414d7821bb1fa72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611265590690,
+        "stop" : 1611265599261,
+        "duration" : 8571
+      }
+    }, {
+      "uid" : "91cab930fd80f6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611265152613,
+        "stop" : 1611265180986,
+        "duration" : 28373
+      }
+    }, {
+      "uid" : "1c0af08690da8b3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611265090276,
+        "stop" : 1611265096144,
+        "duration" : 5868
+      }
+    }, {
+      "uid" : "a9b2191153790426",
+      "status" : "broken",
+      "statusDetails" : "element.isVisibleWithinViewport is not a function",
+      "time" : {
+        "start" : 1611264062675,
+        "stop" : 1611264067906,
+        "duration" : 5231
+      }
+    }, {
+      "uid" : "d12ce1c397f04e48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611263474043,
+        "stop" : 1611263479761,
+        "duration" : 5718
+      }
+    }, {
+      "uid" : "efa7c9f1d52d810e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611263403500,
+        "stop" : 1611263408693,
+        "duration" : 5193
+      }
+    }, {
+      "uid" : "acfb5f907e94666e",
+      "status" : "broken",
+      "statusDetails" : "textWrapper is not defined",
+      "time" : {
+        "start" : 1611263345382,
+        "stop" : 1611263350512,
+        "duration" : 5130
+      }
+    }, {
+      "uid" : "bd3dd7a5f73e8b2c",
+      "status" : "broken",
+      "statusDetails" : "this.textWrapper.waitForDisplayed is not a function",
+      "time" : {
+        "start" : 1611263207625,
+        "stop" : 1611263212812,
+        "duration" : 5187
+      }
+    }, {
+      "uid" : "c8f59848b8f38f28",
+      "status" : "broken",
+      "statusDetails" : "resultContainerParent is not defined",
+      "time" : {
+        "start" : 1611263119890,
+        "stop" : 1611263125038,
+        "duration" : 5148
+      }
+    }, {
+      "uid" : "23803dfccb11b97d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611263052737,
+        "stop" : 1611263057864,
+        "duration" : 5127
+      }
+    }, {
+      "uid" : "7cbd5947ea419145",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611262979167,
+        "stop" : 1611262979219,
+        "duration" : 52
+      }
+    }, {
+      "uid" : "9bd94bc023dbdc1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611262918505,
+        "stop" : 1611262918505,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "430081045ce9570",
+      "status" : "broken",
+      "statusDetails" : "textWrapper is not defined",
+      "time" : {
+        "start" : 1611262567062,
+        "stop" : 1611262567139,
+        "duration" : 77
+      }
+    }, {
+      "uid" : "15ac85c11cb6c79a",
+      "status" : "broken",
+      "statusDetails" : "textWrapper is not defined",
+      "time" : {
+        "start" : 1611262452410,
+        "stop" : 1611262452508,
+        "duration" : 98
+      }
+    }, {
+      "uid" : "e32e3b3cee1f72b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611262400600,
+        "stop" : 1611262400654,
+        "duration" : 54
+      }
+    }, {
+      "uid" : "60085936fdd5fae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611262359050,
+        "stop" : 1611262359050,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84c365ab6293b566",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611262328254,
+        "stop" : 1611262328254,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c0846579dfe497a.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

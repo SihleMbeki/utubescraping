@@ -1,0 +1,58 @@
+{
+  "uid" : "51b1f6048c8a1e31",
+  "name" : "should submit search query",
+  "fullName" : "Extract Youtube content.should submit search query",
+  "historyId" : "e0dcc00449273044619c8a108a60cd22",
+  "time" : {
+    "start" : 1611257678667,
+    "stop" : 1611257684391,
+    "duration" : 5724
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid element state\n                  (Session info: chrome=87.0.4280.141)",
+  "statusTrace" : "invalid element state\n                  (Session info: chrome=87.0.4280.141)\n                    at Object.getErrorFromResponseBody (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Element.elementErrorHandlerCallbackFn (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriverio\\build\\middlewares.js:17:32)\n                    at async Element.setValue (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriverio\\build\\commands\\element\\setValue.js:4:5)\n                    at async Element.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Element.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Element.wrapCommandFn (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriverio\\build\\middlewares.js:34:12)\n                    at Homepage.submitsearchquery (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\home.page.js:6:24)\n                    at Context.<anonymous> (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\ExtractUtubeData.js:7:18)\n                    at Context.executeSync (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should submit search query"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51b1f6048c8a1e31.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

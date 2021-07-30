@@ -1,0 +1,56 @@
+{
+  "uid" : "2f79536173e6a6cc",
+  "name" : "should extract content",
+  "fullName" : "Extract Youtube content.should extract content",
+  "historyId" : "aa7035f1bcddc4ab5c94cda331ad0508",
+  "time" : {
+    "start" : 1611258300618,
+    "stop" : 1611258300619,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract content"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f79536173e6a6cc.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

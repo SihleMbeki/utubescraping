@@ -1,0 +1,258 @@
+{
+  "uid" : "79d6819a3043bd08",
+  "name" : "should extract content",
+  "fullName" : "Extract Youtube content.should extract content",
+  "historyId" : "aa7035f1bcddc4ab5c94cda331ad0508",
+  "time" : {
+    "start" : 1611258983446,
+    "stop" : 1611258983446,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract content"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4ac837fe061a4db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258797457,
+        "stop" : 1611258797457,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f69feaa8af73ef6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258585356,
+        "stop" : 1611258585356,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e2c79cac9fab7e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258536296,
+        "stop" : 1611258536297,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "a369ccec37e0d07b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258490940,
+        "stop" : 1611258490940,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "30fa2d7f85395ee1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258469252,
+        "stop" : 1611258469253,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2f79536173e6a6cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258300618,
+        "stop" : 1611258300619,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fefb4d6c52ad239d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258277471,
+        "stop" : 1611258277471,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cc9e005620184b64",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258181537,
+        "stop" : 1611258181537,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5a0df70e725d33fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258053141,
+        "stop" : 1611258053142,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "1dbd61aa47d2efb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258016490,
+        "stop" : 1611258016490,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d3e1fbb217c15455",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257966203,
+        "stop" : 1611257966204,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b5b7b578a8ef4dbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257939661,
+        "stop" : 1611257939662,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e96a974e125310b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257908680,
+        "stop" : 1611257908681,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ba9994a28afd70ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257871079,
+        "stop" : 1611257871080,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "c71c92a775ac21f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257841775,
+        "stop" : 1611257841775,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "377331b0c30e2e22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257811582,
+        "stop" : 1611257811582,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "676a50eb8d5ded33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257684391,
+        "stop" : 1611257684392,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e828c0363ac4a08f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257584945,
+        "stop" : 1611257584945,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "11b7f4ed826452eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257566606,
+        "stop" : 1611257566606,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "fb7feb66dbf2eacb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257485622,
+        "stop" : 1611257485623,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "67126a9634105ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257449051,
+        "stop" : 1611257449051,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1559ef87c351529",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257413934,
+        "stop" : 1611257413934,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f54669d524b26c02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257377224,
+        "stop" : 1611257377224,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "58088115ec72d25a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611257016758,
+        "stop" : 1611257016759,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "fe746fb51def25c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611256720482,
+        "stop" : 1611256720482,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "79d6819a3043bd08.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

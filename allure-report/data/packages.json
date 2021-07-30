@@ -1,0 +1,48 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Extract Youtube content",
+    "children" : [ {
+      "name" : "should extract content",
+      "uid" : "79d6819a3043bd08",
+      "parentUid" : "6412b1d89aecdca8ea0602113c52c1af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611258983446,
+        "stop" : 1611258983446,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should submit search query",
+      "uid" : "5d7b1219e92f89",
+      "parentUid" : "6412b1d89aecdca8ea0602113c52c1af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611681445102,
+        "stop" : 1611681457195,
+        "duration" : 12093
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should extract result list",
+      "uid" : "1c0846579dfe497a",
+      "parentUid" : "6412b1d89aecdca8ea0602113c52c1af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611681457196,
+        "stop" : 1611681514922,
+        "duration" : 57726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "6412b1d89aecdca8ea0602113c52c1af"
+  } ]
+}

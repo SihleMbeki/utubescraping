@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614386725064' stop='1614386940227'>
+    <name>Extract video comments</name>
+    <title>Extract video comments</title>
+    <test-cases>
+        <test-case start='1614386725064' status='passed' stop='1614386751881'>
+            <name>navigate to the video URL</name>
+            <title>navigate to the video URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1614386751882' status='broken' stop='1614386940222'>
+            <name>should extract comments list</name>
+            <title>should extract comments list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>read ECONNRESET</message>
+                <stack-trace>RequestError: read ECONNRESET
+                    at ClientRequest.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\got\dist\source\core\index.js:953:111)
+                    at ClientRequest.origin.emit (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@szmarczak\http-timer\dist\source\index.js:39:20)
+                    at Socket.socketErrorListener (_http_client.js:426:9)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+                    at Browser.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Browser.wrapCommandFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\utils\refetchElement.js:17:62
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Element.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:69:28
+                    at Array.filter (&lt;anonymous>)
+                    at Homepage.ExtractContent (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:52:20)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:27:19)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

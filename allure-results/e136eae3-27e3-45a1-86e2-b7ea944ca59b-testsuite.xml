@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614375836565' stop='1614375957073'>
+    <name>Extract video comments</name>
+    <title>Extract video comments</title>
+    <test-cases>
+        <test-case start='1614375836565' status='passed' stop='1614375951937'>
+            <name>navigate to the video URL</name>
+            <title>navigate to the video URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1614375951937' status='broken' stop='1614375957072'>
+            <name>should extract comments list</name>
+            <title>should extract comments list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-88.0.4324.190'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;paper-button id="button" class="style-scope ytd-button-renderer" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false" aria-label="View 176 replies">...&lt;/paper-button> is not clickable at point (226, 16). Other element would receive the click: &lt;div id="container" class="style-scope ytd-masthead">...&lt;/div>
+                  (Session info: chrome=88.0.4324.190)</message>
+                <stack-trace>element click intercepted: Element &lt;paper-button id="button" class="style-scope ytd-button-renderer" role="button" tabindex="0" animated="" elevation="0" aria-disabled="false" aria-label="View 176 replies">...&lt;/paper-button> is not clickable at point (226, 16). Other element would receive the click: &lt;div id="container" class="style-scope ytd-masthead">...&lt;/div>
+                  (Session info: chrome=88.0.4324.190)
+                    at Object.getErrorFromResponseBody (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriver\build\utils.js:94:12)
+                    at WebDriverRequest._request (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriver\build\request.js:134:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\middlewares.js:17:32)
+                    at async Element.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:70:25)
+                    at Element.runCommandWithHooks (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:65:24)
+                    at Element.wrapCommandFn (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\wrapCommand.js:44:44)
+                    at Element.elementErrorHandlerCallback (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\webdriverio\build\middlewares.js:34:12)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:83:21
+                    at Array.filter (&lt;anonymous>)
+                    at Homepage.ExtractContent (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\pageobjects\comments.page.js:51:20)
+                    at Context.&lt;anonymous> (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\test\ExtractUtubeComments.js:32:19)
+                    at Context.executeSync (C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\sihle\Documents\WebdriverTestAutomation\UtubeContentExtraction\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

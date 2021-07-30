@@ -1,0 +1,58 @@
+{
+  "uid" : "acfb5f907e94666e",
+  "name" : "should extract result list",
+  "fullName" : "Extract Youtube content.should extract result list",
+  "historyId" : "68b8503b7c5c308a668f537188cc0bf4",
+  "time" : {
+    "start" : 1611263345382,
+    "stop" : 1611263350512,
+    "duration" : 5130
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "textWrapper is not defined",
+  "statusTrace" : "ReferenceError: textWrapper is not defined\n                    at Homepage.ExtractContent (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\result.page.js:15:6)\n                    at Context.<anonymous> (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\ExtractUtubeData.js:18:19)\n                    at Context.executeSync (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract result list"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "acfb5f907e94666e.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,31 @@
+[ {
+  "uid" : "1c0846579dfe497a",
+  "name" : "should extract result list",
+  "time" : {
+    "start" : 1611681457196,
+    "stop" : 1611681514922,
+    "duration" : 57726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d7b1219e92f89",
+  "name" : "should submit search query",
+  "time" : {
+    "start" : 1611681445102,
+    "stop" : 1611681457195,
+    "duration" : 12093
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79d6819a3043bd08",
+  "name" : "should extract content",
+  "time" : {
+    "start" : 1611258983446,
+    "stop" : 1611258983446,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

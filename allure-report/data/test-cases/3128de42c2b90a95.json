@@ -1,0 +1,58 @@
+{
+  "uid" : "3128de42c2b90a95",
+  "name" : "should extract result list",
+  "fullName" : "Extract Youtube content.should extract result list",
+  "historyId" : "68b8503b7c5c308a668f537188cc0bf4",
+  "time" : {
+    "start" : 1611681222681,
+    "stop" : 1611681240372,
+    "duration" : 17691
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)",
+  "statusTrace" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=87.0.4280.141)\n                    at Object.getErrorFromResponseBody (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriver\\build\\utils.js:94:12)\n                    at WebDriverRequest._request (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriver\\build\\request.js:134:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at async Browser.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:25)\n                    at Browser.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at Browser.execute (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriverio\\build\\commands\\browser\\execute.js:11:17)\n                    at Browser.wrapCommandFn (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:40:23)\n                    at Browser.newWindow (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriverio\\build\\commands\\browser\\newWindow.js:14:16)\n                    at Browser.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:34)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\result.page.js:42:21\n                    at Array.filter (<anonymous>)\n                    at Homepage.ExtractContent (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\result.page.js:35:23)\n                    at Context.<anonymous> (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\ExtractUtubeData.js:18:19)\n                    at Context.executeSync (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract result list"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3128de42c2b90a95.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

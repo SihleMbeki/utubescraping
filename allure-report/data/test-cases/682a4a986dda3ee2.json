@@ -1,0 +1,56 @@
+{
+  "uid" : "682a4a986dda3ee2",
+  "name" : "should submit search query",
+  "fullName" : "Extract Youtube content.should submit search query",
+  "historyId" : "e0dcc00449273044619c8a108a60cd22",
+  "time" : {
+    "start" : 1611263392684,
+    "stop" : 1611263403500,
+    "duration" : 10816
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should submit search query"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "682a4a986dda3ee2.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

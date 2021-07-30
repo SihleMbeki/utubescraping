@@ -1,0 +1,58 @@
+{
+  "uid" : "28bc1bac6c677cfb",
+  "name" : "should extract result list",
+  "fullName" : "Extract Youtube content.should extract result list",
+  "historyId" : "68b8503b7c5c308a668f537188cc0bf4",
+  "time" : {
+    "start" : 1611681407138,
+    "stop" : 1611681412366,
+    "duration" : 5228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Wrong parameters applied for getUrl\n                Usage: getUrl()\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-get-current-url\n                ",
+  "statusTrace" : "Error: Wrong parameters applied for getUrl\n                Usage: getUrl()\n                For more info see https://w3c.github.io/webdriver/#dfn-get-current-url\n                    at Browser.protocolCommand (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\webdriver\\build\\command.js:26:19)\n                    at Browser.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:70:34)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Browser.runCommandWithHooks (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:65:24)\n                    at Browser.wrapCommandFn (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:44:44)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\result.page.js:42:13\n                    at Array.filter (<anonymous>)\n                    at Homepage.ExtractContent (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\pageobjects\\result.page.js:35:23)\n                    at Context.<anonymous> (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\test\\ExtractUtubeData.js:18:19)\n                    at Context.executeSync (C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:25:22)\n                    at C:\\Users\\sihle\\Documents\\WebdriverTestAutomation\\UtubeContentExtraction\\node_modules\\@wdio\\sync\\build\\index.js:46:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testClass",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "testMethod",
+    "value" : "should extract result list"
+  }, {
+    "name" : "package",
+    "value" : "Extract Youtube content"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28bc1bac6c677cfb.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,16 @@
+browser.getCurrentTabid();
+browser.getTabIds();
+browser.switchTab([windowHandle]);
+browser.getTitle()
+
+browser.newWindow('http://google.com');
+var tabIds=browser.getTabIds();
+browser.switchTab(tabIds[1])
+browser.close();//this will keep parent tab
+
+this.menuBurgure.waitForDisplayed({ timeout: 3000 });
+
+browser.waitForExist(clickMeButton, 8000, false);
+browser.waitForVisible(clickMeButton, 8000, false); 
+
+browser.isExisting('#contact_reply');
